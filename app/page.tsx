@@ -1,4 +1,5 @@
-import React from 'react';
+'use client';
+
 import Link from 'next/link';
 import Button from '@/components/Button';
 
@@ -12,6 +13,6 @@ const HomePage = () => {
       </p>
     </div>
   );
-}
+};
 
-export default HomePage
+export default HomePage;
